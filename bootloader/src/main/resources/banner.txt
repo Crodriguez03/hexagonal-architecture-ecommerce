@@ -1,0 +1,3 @@
+:: Port :: ${server.port}
+:: URL  :: http://localhost:${server.port}${server.contextPath}
+:: Swagger :: http://localhost:${server.port}${server.contextPath}/swagger-ui/index.html

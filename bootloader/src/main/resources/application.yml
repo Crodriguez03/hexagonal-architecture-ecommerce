@@ -1,0 +1,4 @@
+server:
+   port: 8080
+   contextPath: /ecommerce/v1
+   servlet.context-path: /ecommerce/v1
