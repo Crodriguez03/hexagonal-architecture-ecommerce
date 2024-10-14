@@ -2,3 +2,10 @@ server:
    port: 8080
    contextPath: /ecommerce/v1
    servlet.context-path: /ecommerce/v1
+   
+spring:
+   jpa:
+      properties:
+         hibernate:
+            connection.charSet: UTF-8
+            hbm2ddl.import_files_sql_extractor: org.hibernate.tool.schema.internal.script.MultiLineSqlScriptExtractor
